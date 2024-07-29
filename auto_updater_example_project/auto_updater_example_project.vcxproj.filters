@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="AutoUpdater.cpp">
+      <Filter>Dumper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Dumper">
+      <UniqueIdentifier>{163aa20a-0e37-44b6-b89d-b589cba72a66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AutoUpdater.h">
+      <Filter>Dumper</Filter>
+    </ClInclude>
+    <ClInclude Include="DumperStructs.h">
+      <Filter>Dumper</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

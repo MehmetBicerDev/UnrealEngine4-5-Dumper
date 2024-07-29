@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="dumper.cpp">
+      <Filter>dumper</Filter>
+    </ClCompile>
+    <ClCompile Include="class_manager.cpp">
+      <Filter>dumper\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="unreal_struct.cpp">
+      <Filter>dumper\structs</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_autoupdate_generator.cpp">
+      <Filter>dumper\generator\private</Filter>
+    </ClCompile>
+    <ClCompile Include="file_util.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="string_util.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="global_settings.h" />
+    <ClInclude Include="dumper.h">
+      <Filter>dumper</Filter>
+    </ClInclude>
+    <ClInclude Include="HashStringTable.h" />
+    <ClInclude Include="smart_container.h" />
+    <ClInclude Include="class_manager.h">
+      <Filter>dumper\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="unreal_struct.h">
+      <Filter>dumper\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_autoupdate_generator.h">
+      <Filter>dumper\generator\public</Filter>
+    </ClInclude>
+    <ClInclude Include="c_generator.h">
+      <Filter>dumper\generator\public</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_structs.h">
+      <Filter>dumper\generator\static</Filter>
+    </ClInclude>
+    <ClInclude Include="file_util.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="string_util.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="vcxproj_generator.h">
+      <Filter>util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="dumper">
+      <UniqueIdentifier>{518820c1-02f5-4cfd-970c-45e36008490c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dumper\manager">
+      <UniqueIdentifier>{a562f60d-0465-413c-a53d-4a3765450461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dumper\structs">
+      <UniqueIdentifier>{d84a344e-7be5-4127-950d-1cb8d5a8262a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dumper\generator">
+      <UniqueIdentifier>{2088150b-a3f8-45bb-8701-16b5c6b0987c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dumper\generator\public">
+      <UniqueIdentifier>{939e07ee-730a-4abe-940a-e7eb0cb18c39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dumper\generator\private">
+      <UniqueIdentifier>{6cc68f26-8364-4d77-b6a6-74bb3c2464c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dumper\generator\static">
+      <UniqueIdentifier>{4fe886ec-e9a1-409f-b81a-ad9ba505801f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{2122a075-e91f-4c02-9726-5ab9f062ba37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{9ac5732b-26e9-4d5d-a017-fdb2623e84ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\fmt">
+      <UniqueIdentifier>{775da9d7-c722-4d50-b3ce-9cd9ce5281e6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

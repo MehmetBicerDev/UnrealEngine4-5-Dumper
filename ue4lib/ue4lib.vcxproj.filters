@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="ue4lib_includes.h" />
+    <ClInclude Include="object_array.h">
+      <Filter>engine\public</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h" />
+    <ClInclude Include="offsets.h">
+      <Filter>engine\public</Filter>
+    </ClInclude>
+    <ClInclude Include="offset_finder.h">
+      <Filter>engine\public</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.h">
+      <Filter>engine\public</Filter>
+    </ClInclude>
+    <ClInclude Include="name_array.h">
+      <Filter>engine\public</Filter>
+    </ClInclude>
+    <ClInclude Include="unreal_types.h">
+      <Filter>engine\public</Filter>
+    </ClInclude>
+    <ClInclude Include="unreal_objects.h">
+      <Filter>engine\public</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h" />
+    <ClInclude Include="unreal_structs.h">
+      <Filter>engine\public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="engine">
+      <UniqueIdentifier>{c37673c0-e08b-4561-8e04-e598e4e841af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\private">
+      <UniqueIdentifier>{c42ee2a4-acfe-4d03-a4eb-b06e535be2f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\public">
+      <UniqueIdentifier>{dfcf2202-6455-47fa-8ad0-a02c7726c882}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="object_array.cpp">
+      <Filter>engine\private</Filter>
+    </ClCompile>
+    <ClCompile Include="offsets.cpp">
+      <Filter>engine\private</Filter>
+    </ClCompile>
+    <ClCompile Include="unreal_types.cpp">
+      <Filter>engine\private</Filter>
+    </ClCompile>
+    <ClCompile Include="name_array.cpp">
+      <Filter>engine\private</Filter>
+    </ClCompile>
+    <ClCompile Include="unreal_objects.cpp">
+      <Filter>engine\private</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
